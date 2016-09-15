@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>google.load("feeds", "1");</script>
+</head>
+<body>
+<div id="input_container">
+
+    <input id="input_feed" data-role="tagsinput">
+
+    <a id="input_submit" class="btn btn-normal" href="javascript:;" style="display: inline;">go</a>
+    <a id="input_reg" class="btn btn-normal" data-target="#myModal" data-toggle="modal" href="javascript:;"
+       style="display: inline;">log in & register</a>
+
+</div>
+<div id="main_wrapper">
+    <div id="main_container">
+
+        <!-- item_block starts-->
+
+        <!--<div class="item_block">
+            <a></a>
+            <div class="img_wrapper">
+                <img>
+            </div>
+            <div class="content_wrapper">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>-->
+
+        <!-- item_block ends -->
+    </div>
+</div>
+<div class="modal " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Hi, U can Login & register Here!</h4>
+            </div>
+            <div class="modal-body">
+                <input placeholder="Email" id="in_email">
+                <input placeholder="Password" id="in_pwd">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="aj_login">Login</button>
+                <button type="button" class="btn btn-primary" id="aj_reg">Register</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/06411a78b4.js"></script>
+<script src="js/bootstrap-tagsinput.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
