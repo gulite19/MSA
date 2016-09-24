@@ -1,6 +1,4 @@
-﻿/**
- * Created by Dante on 2016/8/18.
- */
+
 var Module_feed = function () {
 
 	/*initial content array*/
